@@ -148,14 +148,11 @@ export const slidesData: SlideContent[] = [
           <li>
             <strong>Visual:</strong> Touch Designer & Pixera projections showing:
             <ul>
-              <li>Human water veins superimposed with canal systems</li>
-              <li>Lost/endangered desert ecosystems</li>
               <li>Historical progression: Hohokam → Mormon settlers → SRP → Modern data centers</li>
             </ul>
           </li>
           <li><strong>Audio:</strong> Spatial sound design with transitions from flowing water to server humming</li>
           <li><strong>Scent:</strong> Creosote diffuser to evoke desert environment</li>
-          <li><strong>Interactive:</strong> Live water feature that gradually dries up during the presentation</li>
         </ul>
       </>
     )
