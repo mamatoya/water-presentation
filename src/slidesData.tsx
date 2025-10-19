@@ -111,7 +111,6 @@ export const slidesData: SlideContent[] = [
       <>
         <ul style={{ textAlign: 'center' }}>
           <li>Citizens remain unaware of the water crisis</li>
-          <li>Data centers built on historically indigenous and Hispanic communities</li>
           <li>Unaware of rate shock and utility billing trends</li>
           <li>Natural environments continue to be depleted</li>
         </ul>
