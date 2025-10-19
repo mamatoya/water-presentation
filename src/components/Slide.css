@@ -12,7 +12,9 @@
 }
 
 .slide.slide-team {
-  padding: 80px 20px 40px;
+  padding: 60px 20px 60px;
+  min-height: auto;
+  scroll-snap-align: center;
 }
 
 .slide h1 {

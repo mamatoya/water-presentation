@@ -1,8 +1,8 @@
 .team-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
-  margin-top: 30px;
+  gap: 15px;
+  margin-top: 20px;
   padding: 0 15px;
   width: 100%;
   max-width: 1200px;
@@ -18,7 +18,7 @@
 .member-portrait {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
 }
 
