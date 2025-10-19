@@ -13,12 +13,8 @@ const TeamGrid: React.FC<TeamGridProps> = ({ members }) => {
         <div key={index} className="team-member">
           <div className="member-portrait">
             <img
-              src={`/${member.name}.jpg`}
+              src={`/${member.name}.png`}
               alt={member.name}
-              onError={(e) => {
-                // Fallback to .png if .jpg doesn't exist
-                (e.target as HTMLImageElement).src = `/${member.name}.png`;
-              }}
             />
             <div className="member-overlay">
               <h3 className="member-name">{member.name}</h3>

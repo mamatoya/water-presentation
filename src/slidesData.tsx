@@ -39,8 +39,8 @@ export const slidesData: SlideContent[] = [
         <h1 style={{ textAlign: 'center' }}>
           Canals Carry<br />Water and History
         </h1>
-        <p style={{ fontSize: '1.2em', marginTop: '40px' }}>Team AZwater2030 @ ReMIX the Future</p>
-        <p style={{ fontSize: '1.2em' }}>Experience Track - October 2025</p>
+        <p style={{ fontSize: '1.2em', marginTop: '40px' }}>Immersive Experience, October 2025</p>
+        <p style={{ fontSize: '1.2em' }}>Team AZwater2030 @ ReMIX the Future</p>
         <p style={{ fontSize: '1em', marginTop: '30px', color: 'rgba(255, 255, 255, 0.8)' }}>JoAnn, Gabriella, Mike</p>
       </>
     )
@@ -48,7 +48,7 @@ export const slidesData: SlideContent[] = [
   {
     id: 2,
     type: 'team',
-    title: 'Meeting team AZwater2030',
+    title: 'Meeting AZwater2030',
   },
   {
     id: 3,
@@ -78,43 +78,28 @@ export const slidesData: SlideContent[] = [
     title: 'Project Vision',
     content: (
       <>
-        <h3>Our Vision</h3>
-        <p>
-          To create awareness and action around water sustainability in Arizona through immersive,
-          educational experiences that connect communities to the lifeblood of their landscape.
-        </p>
-
         <h3>What Change Will Occur?</h3>
-        <ul>
+        <ol>
           <li>Increased public awareness of water scarcity issues</li>
           <li>Community engagement with local water policy</li>
           <li>Connection between technology, industrial growth, and water resources</li>
           <li>Advocacy for sustainable practices and gradual utility rate adjustments</li>
-        </ul>
+        </ol>
       </>
     )
   },
   {
     id: 5,
     type: 'content',
-    title: 'The Challenge: Water Scarcity in the Desert',
     content: (
       <>
+        <h2 style={{ textAlign: 'center' }}>Water Scarcity in the Desert</h2>
         <h3>Critical Issues:</h3>
-        <ul>
+        <ul style={{ textAlign: 'center' }}>
           <li><span className="emphasis">Growing population</span> in an arid desert climate</li>
-          <li><span className="emphasis">Industrial activities:</span> Data centers, semiconductors, chip factories</li>
-          <li><span className="emphasis">85% of water</span> used for industrial purposes</li>
-          <li>Loss of keystone flora and fauna species</li>
+          <li><span className="emphasis">Industrial activities</span> straining electrical and water systems. Semiconductor manufacturing and data centers.</li>
+          <li><span className="emphasis">Unclear accountability</span> of water usage</li>
         </ul>
-
-        <div className="data-highlight">
-          <p><strong>Data center power demand will grow 160% by 2030</strong></p>
-          <p>
-            AI-driven workloads are accelerating data center growth, using extensive amounts of water
-            for cooling systems, rendering it contaminated and improperly recycled.
-          </p>
-        </div>
       </>
     )
   },
@@ -124,12 +109,11 @@ export const slidesData: SlideContent[] = [
     title: 'Status Quo',
     content: (
       <>
-        <ul>
+        <ul style={{ textAlign: 'center' }}>
           <li>Citizens remain unaware of the water crisis</li>
           <li>Data centers built on historically indigenous and Hispanic communities</li>
-          <li>Utility rates will increase 30% with "rate shock"</li>
-          <li>Natural environments continue to be devastated</li>
-          <li>Colorado River resources further depleted</li>
+          <li>Unaware of rate shock and utility billing trends</li>
+          <li>Natural environments continue to be depleted</li>
         </ul>
       </>
     )
@@ -140,12 +124,12 @@ export const slidesData: SlideContent[] = [
     title: 'Connecting Through Experience',
     content: (
       <>
+        <h3 style={{ fontSize: '1.5em' }}>ancient water stewardship → industrialization → impact → taking water agency</h3>
         <h3>What Distinguishes Our Approach?</h3>
         <ul>
           <li><strong>Immersive storytelling</strong> through multi-sensory experiences</li>
           <li><strong>Historical narrative</strong> from Hohokam canals to modern infrastructure</li>
           <li><strong>Spatial audio and binaural beats</strong> to create emotional impact</li>
-          <li><strong>Visual representations</strong> of water systems as human veins</li>
         </ul>
 
         <p style={{ marginTop: '30px' }}>
@@ -161,7 +145,6 @@ export const slidesData: SlideContent[] = [
     title: 'Our Approach',
     content: (
       <>
-        <h3 style={{ fontSize: '1.5em' }}>ancient water stewardship → industrialization → impact → taking water agency</h3>
         <ul>
           <li>
             <strong>Visual:</strong> Touch Designer & Pixera projections showing:
@@ -194,7 +177,6 @@ export const slidesData: SlideContent[] = [
         <h3>Long-term Goals (2030):</h3>
         <ul>
           <li>Inspire public to contact state representatives</li>
-          <li>Advocate for sustainable data center regulations</li>
           <li>Support gradual utility rate increases to avoid "rate shock"</li>
           <li>Promote public spaces around canals with better maintenance</li>
           <li>Connect communities to nature and water resources</li>
